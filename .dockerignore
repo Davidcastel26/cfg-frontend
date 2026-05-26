@@ -1,0 +1,15 @@
+cat > .dockerignore << 'EOF'
+node_modules
+dist
+.git
+.gitignore
+README.md
+.env.local
+.env.*.local
+Dockerfile
+.dockerignore
+storybook-static
+coverage
+.vscode
+.idea
+EOF
